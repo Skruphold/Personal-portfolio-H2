@@ -5,44 +5,47 @@ body {
 }
 
 header {
-    background-color: purple;
-    position: absolute; 
-    top: 0px;
-    left: 0px;
-    display: inline-block;
+    padding: 20px;
+    background-color: purple;   
+    justify-content: space-between 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid 10px rgb(250, 54, 201);
+    border-radius: 10px;
+    height: 75px;
 }
 
-h1 {
-    color: pink;
-    font-size: 75px;
+ header h1 {
+    color: rgb(250, 54, 201);
+    font-size: 50px;
     display: inline-block;
+    margin-top: 5px;
 }
 
 header nav {
-    color: pink;
+    color: rgb(250, 54, 201);
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
 }
 
 header nav ul li {
     display: inline-block;
+    font-size: 30px;
 }
 
-h2 p {
+article p {
     color: white;
     font-size: 48px;
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    border-style: solid;
-    border-color: purple;
-    border-width: 5px;
-    border-radius: 25%;
+    border: solid 5px purple;
+    border-radius: 10px;
 }
 
 .Cool-subtitle {
     background-image: url(./assets/Coolsubtitle\ background.jpg);
     background-size: contain;
 }
+
