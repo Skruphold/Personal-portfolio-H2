@@ -1,0 +1,48 @@
+body {
+    font-size: 24px;
+    line-height: 1.5;
+    background-color: rgb(255, 166, 0);
+}
+
+header {
+    background-color: purple;
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+}
+
+h1 {
+    color: pink;
+    font-size: 75px;
+    display: inline-block;
+}
+
+header nav {
+    color: pink;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+h2 p {
+    color: white;
+    font-size: 48px;
+    font-family: cursive;
+    text-align: center;
+    border-style: solid;
+    border-color: purple;
+    border-width: 5px;
+    border-radius: 25%;
+}
+
+.Cool-subtitle {
+    background-image: url(./assets/Coolsubtitle\ background.jpg);
+    background-size: contain;
+}
