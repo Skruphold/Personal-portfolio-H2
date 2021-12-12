@@ -6,12 +6,14 @@ body {
 
 header {
     padding: 20px;
-    background-color: purple;   
-    justify-content: space-between 50px;
+    background-color: purple;
+    flex-direction: row;   
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: solid 10px rgb(250, 54, 201);
     border-radius: 10px;
     height: 75px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
  header h1 {
@@ -19,20 +21,22 @@ header {
     font-size: 50px;
     display: inline-block;
     margin-top: 5px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
 
-header nav {
-    color: rgb(250, 54, 201);
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
+header nav ul {
+    display: inline-block;
+    margin-left: 1250px;
 }
 
 header nav ul li {
-    display: inline-block;
     font-size: 30px;
+    display: inline-block;
+    
 }
 
 article p {
@@ -42,10 +46,21 @@ article p {
     text-align: center;
     border: solid 5px purple;
     border-radius: 10px;
+    width: 600px;
+    margin-left: 800px;
 }
 
 .Cool-subtitle {
     background-image: url(./assets/Coolsubtitle\ background.jpg);
     background-size: contain;
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 10px;
+    border: solid 10px rgb(250, 54, 201);
+}
+
+#subtitle {
+    display: flex;
+    justify-content: center;
 }
 
