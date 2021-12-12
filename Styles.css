@@ -1,11 +1,11 @@
 body {
     font-size: 24px;
-    line-height: 1.5;
+    line-height: 1;
     background-color: rgb(255, 166, 0);
 }
 
 header {
-    padding: 20px;
+    padding: 30px;
     background-color: purple;
     flex-direction: row;   
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -13,15 +13,11 @@ header {
     border-radius: 10px;
     height: 75px;
     display: flex;
-    flex-wrap: nowrap;
 }
 
  header h1 {
-    color: rgb(250, 54, 201);
+    color: rgb(255, 166, 0);
     font-size: 50px;
-    display: inline-block;
-    margin-top: 5px;
-    margin-left: 10px;
     display: flex;
     justify-content: flex-start;
     flex-wrap: nowrap;
@@ -36,18 +32,23 @@ header nav ul {
 header nav ul li {
     font-size: 30px;
     display: inline-block;
+    color: rgb(255, 166, 0);
     
 }
 
+a {
+    color: rgb(255, 166, 0);
+}
+
 article p {
-    color: white;
+    padding: 20px;
     font-size: 48px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     border: solid 5px purple;
     border-radius: 10px;
     width: 600px;
-    margin-left: 800px;
+    margin-left:600px;
 }
 
 .Cool-subtitle {
@@ -57,10 +58,35 @@ article p {
     flex-wrap: nowrap;
     border-radius: 10px;
     border: solid 10px rgb(250, 54, 201);
+    padding: 40px;
 }
 
 #subtitle {
     display: flex;
     justify-content: center;
+    color: rgb(255, 166, 0);
 }
 
+section {
+    background: rgb(250, 54, 201);
+    border: solid 10px purple;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: rgb(255, 166, 0);
+    margin-left: 15px;
+    margin-top: 5px;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section p {
+    color: rgb(255, 166, 0);
+}
+
+#Aboutme {
+     display: flex;
+     align-items: flex-start;
+     justify-content: space-around;
+}
