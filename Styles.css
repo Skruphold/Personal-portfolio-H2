@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    padding: 30px;
+    padding: 20px;
     background-color: purple;
     flex-direction: row;   
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -27,6 +27,7 @@ header {
 header nav ul {
     display: inline-block;
     margin-left: 1250px;
+    margin-bottom: 0px;
 }
 
 header nav ul li {
@@ -40,7 +41,7 @@ a {
     color: rgb(255, 166, 0);
 }
 
-article p {
+ article p {
     padding: 20px;
     font-size: 48px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -48,7 +49,7 @@ article p {
     border: solid 5px purple;
     border-radius: 10px;
     width: 600px;
-    margin-left:600px;
+    margin-left:800px;
 }
 
 .Cool-subtitle {
@@ -67,7 +68,91 @@ article p {
     color: rgb(255, 166, 0);
 }
 
-section {
+.About-me-box {
+    display: flex;
+    background-color: purple;
+    border-radius: 10px;
+    border: solid 10px rgb(250, 54, 201);
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.About-me-header {
+    border: solid 5px rgb(250, 54, 201);
+    color: rgb(255, 166, 0);
+    border-radius: 10px;
+}
+
+.About-me-details {
+    color: rgb(255, 166, 0);
+    padding: 10px;
+    border: solid 10px rgb(250, 54, 201);
+    border-radius: 10px;
+    background-size: contain;
+}
+
+.Personal-picture {
+    float: right;
+    padding: 5px;
+}
+
+.workSection {
+    background: purple;
+}
+
+h4 {
+    background: rgb(250, 54, 201);
+    color: rgb(255, 166, 0);
+    display: flex;
+    flex-wrap: nowrap;
+    background-size: contain;
+    padding: 40px;
+    justify-content: center;
+    font-size: 32px;
+    border: solid 5px purple;
+    border-radius: 10px;
+}
+
+.projects {
+    background-color: purple;
+    display: flex;
+}
+
+.project {
+    color: rgb(255, 166, 0);
+    border: solid 5px rgb(255, 166, 0);
+}
+
+#text {
+    border: solid 5 px rgb(255, 166, 0);
+}
+
+
+
+/* .workSection-body {
+    background-color: rgb(250, 54, 201);
+    color: rgb(250, 54, 201);
+    border: solid 10px purple;
+}
+
+.workSection {
+    color: rgb(255, 166, 0);
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+.workSection-box {
+    size: 50%;
+    background-image: url(./assets/portfoliophoto.PNG);
+}
+
+.workSection-words {
+    color: rgb(255, 166, 0);
+} */
+
+
+
+/* section {
     background: rgb(250, 54, 201);
     border: solid 10px purple;
     border-radius: 10px;
@@ -89,4 +174,4 @@ section p {
      display: flex;
      align-items: flex-start;
      justify-content: space-around;
-}
+}  */
