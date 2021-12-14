@@ -95,6 +95,7 @@ h2 {
 .Personal-picture {
     float: right;
     padding: 5px;
+    border-radius: 10px;
 }
 
 .workSection {
@@ -114,7 +115,7 @@ h4 {
     border: solid 5px purple;
     border-radius: 10px;
     position: relative;
-    top: -40px;
+    top: -42px;
 }
 
 .projects {
@@ -125,7 +126,7 @@ h4 {
     border: solid 10px rgb(250, 54, 201);
     border-radius: 10px;
     position: relative;
-    top: -82px;
+    top: -84px;
     height: 800px;
 }
 
@@ -205,55 +206,9 @@ h4 {
     width: 600px;
 }
 
-/* .text {
-    border: solid 5 px rgb(255, 166, 0);
-} */
-
-
-
-/* .workSection-body {
-    background-color: rgb(250, 54, 201);
-    color: rgb(250, 54, 201);
-    border: solid 10px purple;
+@media screen and (max-width: 992px) {
+     body {
+         width: 100%;
+     }
 }
 
-.workSection {
-    color: rgb(255, 166, 0);
-    text-decoration: underline;
-    font-size: 24px;
-}
-
-.workSection-box {
-    size: 50%;
-    background-image: url(./assets/portfoliophoto.PNG);
-}
-
-.workSection-words {
-    color: rgb(255, 166, 0);
-} */
-
-
-
-/* section {
-    background: rgb(250, 54, 201);
-    border: solid 10px purple;
-    border-radius: 10px;
-}
-
-section h2 {
-    color: rgb(255, 166, 0);
-    margin-left: 15px;
-    margin-top: 5px;
-    text-decoration: underline;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-section p {
-    color: rgb(255, 166, 0);
-}
-
-#Aboutme {
-     display: flex;
-     align-items: flex-start;
-     justify-content: space-around;
-}  */
