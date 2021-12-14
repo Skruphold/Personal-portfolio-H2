@@ -169,6 +169,42 @@ h4 {
     justify-content: flex-start;
 }
 
+.projectsection2 {
+    position: relative;
+    top: -13px;
+    left: -150px;
+}
+
+.code-project {
+    color: rgb(255, 166, 0);
+    border: solid 5px rgb(255, 166, 0);
+}
+
+.text-project {
+    border: solid 5px rgb(255, 166, 0);
+    color: rgb(255, 166, 0);
+    height: 700px;
+    width: 600px;
+}
+
+.projectsection3 {
+    position: relative;
+    top: -13px;
+    left: -600px
+}
+
+.card-project {
+    color: rgb(255, 166, 0);
+    border: solid 5px rgb(255, 166, 0);
+}
+
+.test-project {
+    border: solid 5px rgb(255, 166, 0);
+    color: rgb(255, 166, 0);
+    height: 700px;
+    width: 600px;
+}
+
 /* .text {
     border: solid 5 px rgb(255, 166, 0);
 } */
