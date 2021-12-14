@@ -16,13 +16,13 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#About-Me-box">About me</a>
+                    <a href="#About-me-header">About me</a>
                 </li>
                 <li>
-                    <a href="#workSection">Work</a>
+                    <a href="#worksection">Work</a>
                 </li>
                 <li>
-                    <a href="Contact Me">Contact Me</a>
+                    <a href="#Contactsection">Contact Me</a>
                 </li>
                 <li>
                     <a href="resume">Resume</a>
@@ -40,7 +40,7 @@
 
         <section class="About-me-box">
              <article Class="About-me-code">
-                <id class="About-me-header">About me!!!</id>
+                <h2 id="About-me-header">About me!!!</h2>
                 <pre class="About-me-details"><code>
     I am currently attending the UofM coding bootcamp. I am excited to launch my career into the coding Industry
 where I hope to excel into a great software developer. I am entirely a beginner and find it a little daunting,
@@ -56,22 +56,31 @@ photography, and photo-editing.</code></pre>
     <article>
         <h4>Work!!!!</h4>
         <div class="projects">
-            <figure class="workSection">
-                <!-- <p class="Title">Work!!!</p> -->
-                    <p class="project">Project 1</p>
-                        <p id="text">Here's my project 1</p>
-                    <p class="project">Project 2</p>
-                        <p id="text">Heres's my project 2</p>
-                    <p class="project">Project 3</p>
-                        <p id="text">Here's my project 3</p> 
-            </figure>       
+            <figure id="worksection" class="workSection">
+                    <h5 class="project">Project 1</h5>
+                        <a href="https://skruphold.github.io/Code-Refactor-H1/"><h5 class="text">Here's my project 1</h5></a>
+            </figure>
+
+            <aside class="project2">
+                <figure class="projectsection2">
+                    <div class="code-project">Project 2</div>
+                        <h5 class="text-project">Here's my project 2.</h5>
+                </figure>
+            </aside> 
+            
+            <section class=project3>
+                <figure class="projectsection3">
+                    <div class="card-project">Project 3</div>
+                        <h5 class="test-project">Here's my project 3</h5>
+                </figure>
+            </section>
         </div>
     </article>
 
     <footer>
-        <article>
-            <p class="Contactsection">Contact Me</p>
-            <p class="Waystocontact">Email: Hunter@gmail.com / Phone: 777-777-7777 / Github: https://github.com/Skruphold</p>
+        <article class="footer">
+            <h6 id="Contactsection" class="Contactsection"> Contact Me </h6>
+            <h6 class="Waystocontact"> <a href="mailto:Hunterco999@gmail.com">Email</a> / Phone: 777-777-7777 / Github: https://github.com/Skruphold</h6>
         </article>
 
     </footer>

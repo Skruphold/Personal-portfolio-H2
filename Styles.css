@@ -75,9 +75,10 @@ a {
     border: solid 10px rgb(250, 54, 201);
     padding: 5px;
     justify-content: space-between;
+
 }
 
-.About-me-header {
+h2 {
     border: solid 5px rgb(250, 54, 201);
     color: rgb(255, 166, 0);
     border-radius: 10px;
@@ -97,7 +98,8 @@ a {
 }
 
 .workSection {
-    background: purple;
+    position: relative;
+    top: -44px;
 }
 
 h4 {
@@ -111,21 +113,65 @@ h4 {
     font-size: 32px;
     border: solid 5px purple;
     border-radius: 10px;
+    position: relative;
+    top: -40px;
 }
 
 .projects {
     background-color: purple;
     display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    border: solid 10px rgb(250, 54, 201);
+    border-radius: 10px;
+    position: relative;
+    top: -82px;
+    height: 800px;
 }
 
 .project {
     color: rgb(255, 166, 0);
     border: solid 5px rgb(255, 166, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
-#text {
-    border: solid 5 px rgb(255, 166, 0);
+.text {
+    border: solid 5px rgb(255, 166, 0);
+    height: 700px;
+    width: 900px;
+    background-image: url(./assets/portfoliophoto.PNG);
 }
+
+.project2 {
+    position: relative;
+    left: 100px;
+}
+
+.project3 {
+    position: relative;
+    left: 500px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    border: solid 15px purple;
+    background-color: rgb(250, 54, 201);
+    position: relative;
+    top: -84px;
+    border-radius: 10px;
+}
+
+.Contactsection {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* .text {
+    border: solid 5 px rgb(255, 166, 0);
+} */
 
 
 
