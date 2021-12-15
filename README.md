@@ -10,3 +10,4 @@ in the first project. When clicked it will bring you too my homework 1. Then I m
 
 I also had to build my css file from scratch, plus a reset css. I tried to make everything a flex box the best I could but trying to configure it with my html gave me issues. I used my 3 favorite colors for everthing and built them to space out correctly. I made my first project picture bigger and its a clickable link. however i have no other work to post in the other sections so I left them blank. The page looks nice on my 32inch screen. Everything fits there, however I really struggled with the media query part and my page does break when you try to adjust size.
 
+[link to deployed page](https://skruphold.github.io/Personal-portfolio-H2/)
