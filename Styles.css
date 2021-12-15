@@ -186,6 +186,7 @@ h4 {
     color: rgb(255, 166, 0);
     height: 700px;
     width: 600px;
+    background-image: url(./assets/techbackground.jpg);
 }
 
 .projectsection3 {
@@ -204,6 +205,7 @@ h4 {
     color: rgb(255, 166, 0);
     height: 700px;
     width: 600px;
+    background-image: url(./assets/techbackground2.jpg);
 }
 
 @media screen and (max-width: 992px) {
